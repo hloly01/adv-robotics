@@ -1,7 +1,12 @@
-from XRPLib.defaults import *
-from Husky.huskylensPythonLibrary import HuskyLensLibrary
+
 import math
 import time
+from XRPLib.defaults import *
+
+try:
+    from huskylensPythonLibrary import HuskyLensLibrary
+except ImportError:
+    from Husky.huskylensPythonLibrary import HuskyLensLibrary
 
 try:
     from MQTT.mqttconnect import *
@@ -41,7 +46,7 @@ while not board.is_button_pressed():
         y = (state_x2 + state_x3)/2
         # Bang-bang controller w/ proportional control
         if y < 68:
-            base_velocity = max(10* math.sqrt(abs(68 - y)),15)
+            base_velocity = 10 # max(10* math.sqrt(abs(68 - y)),15)
             P = .2
             print(f"base velocity: {10* math.sqrt(abs(68 - y)),15}")
             if 150 <= x <= 170:
@@ -52,11 +57,13 @@ while not board.is_button_pressed():
                 # Turn left
                 print("turn left")
                 delta_velocity = P*(160-x)
+                print(delta_velocity)
                 differentialDrive.set_speed(base_velocity-delta_velocity, base_velocity+delta_velocity)  # left motor slower
             elif x > 170:
                 # Turn right
                 print("turn right")
                 delta_velocity = P*(x - 160)
+                print(delta_velocity)
                 differentialDrive.set_speed(base_velocity+delta_velocity, base_velocity-delta_velocity)  # right motor slower
         elif 68 <= y <= 75:
             differentialDrive.set_speed(0.0, 0.0)
