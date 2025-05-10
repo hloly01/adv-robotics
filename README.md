@@ -10,6 +10,7 @@ Contributors
 - Aengus Kennedy
 
 huskylensPythonLibrary.py is the library needed for the camera
+
 track_person.py tracks a person or object using proportional control 
 
 **Final Report**
