@@ -15,9 +15,11 @@ track_person.py tracks a person or object using proportional control
 **Final Report**
 
 **Problem**
+
 The motivation for this project was to create a robot that could follow a person while carrying their muffin on different terrains. This idea was created because it is often the case that people have too many things to carry at one point in time. Having a robot that could ease the load and carry small food items like muffins is beneficial to an average person, especially students and the elderly. Similar to service animals, this robot also has the potential to act as a second eye to follow and assist a user in day-to-day tasks. 
 
 **Approach**
+
 To solve the problem presented above, and to explore it further it was necessary to divide the project into two sub-projects with different goals. One goal was to program one robot to follow a person by implementing PID control and color recognition with the integration of the MQTT server to display the camera tracking results so that the person walking and all other teammates can see the robot’s performance. The next sub-section of the project involved designing multiple designs of the XRP robot to tackle different terrains that a person would come across on foot, such as different textured floors and curbs. These terrains were considered with a generic unupgraded XRP robot with improved traction, a quadruped walking robot, a squishy-wheeled terrain navigation robot, and a octoped robot that walked using the strandbeest linkage.
 
 
@@ -45,6 +47,7 @@ I also developed TPU shoes in order to help the robot with traction, but when I 
 
 
 **Results**
+
 Initial Project Proposal: https://docs.google.com/document/d/1EBQ_19-cI4nVA9oXWnj0M3b3HF9xziEswdf9Fsvx6aE/edit?usp=drive_link
 Coding Base Goal: Following a person using the camera.  https://vimeo.com/1083012195?share=copy#t=0 
 Integration Stretch Goal: Following in outside conditions with coffee cup, rain and bumpy terrain. https://vimeo.com/1083012225?share=copy#t=0 
