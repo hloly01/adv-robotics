@@ -59,6 +59,7 @@ Height:https://drive.google.com/file/d/16J9QbW-kvHHMqweEa2FWGfuadg-LfbSL/view?us
 Strandbeest walking: https://drive.google.com/file/d/1eoKmq0rgagFSSXSfYNL1REPwemu0Kf8j/view?usp=drive_link
 Strandbeest following:
 https://drive.google.com/file/d/1V6RHlMUmlsBHP4uFBQysgwOAJJGCKJP3/view?usp=drive_link
+
 **Impact**
 
 This project has potential impact for everyday people and for the disabled. The ability to have a robot carry a payload behind someone can be further explored and expanded upon for a wide range of applications. The following aspect of this project over a variety of terrain also has a wide range of potential for monitoring and tracking. This could be useful in contexts where service animals may be used, for example for guide dogs, mobility assistance, seizure detection, and medication reminders. The robot in itself is very affordable, and we can see this being marketed commercially due to its affordability and scalability. Additionally, the adaptability and modular design of the XRP robor enables it to be helpful in a wide range of unique scenarios and tasks by adding additional sensors possibly for allergy detection, or by adding different camera functionality to assist the vision impaired.
