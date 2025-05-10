@@ -54,6 +54,6 @@ Once complete, the strandbeest walking robot can be controlled by exactly the sa
 
 Part models and assembly instructions are located at https://cad.onshape.com/documents/dbd1454ff3330c0206134982/w/dce826dccf6e6e0ceb912fed/e/1a807cf66c90472402f4d357?renderMode=0&uiState=681ea9952047863eae74fcb4  Chassis parts are 3D printable
 Print the new XRP chassis, wheel hubs, and connecting arm to the front wheels. Print the silicone wheel molds.
-Use silicone 10 and 30 to create the front and back wheel respectively. Each is made from a two part solution that gets stirred together and put in a pressurized chamber to remove bubbles. Wait for the silicone to cure
+Use silicone 10 and 30 to create the front and back wheel respectively. Each is made from a two part solution that gets stirred together and put in a pressurized chamber to remove bubbles. Wait for the silicone to cure.
 Once assembled, the terrain robot can run on regular XRP motion commands. Try and watch as it navigates over obstacles!
 
